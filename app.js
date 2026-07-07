@@ -8,9 +8,11 @@ const GENRE_RULES = [
   { keywords: ["ai", "machine", "cyber", "space", "robot", "solar"], genre: "Science Fiction" },
   { keywords: ["empire", "war", "revolution", "crown", "kingdom"], genre: "Political Epic" },
   { keywords: ["ancient", "lost", "ruins", "myth", "prophecy"], genre: "Mythic Adventure" },
+  { keywords: ["ancestor", "griot", "ubuntu", "diaspora", "sankofa"], genre: "Afrofuturist Myth" },
 ];
 
 const TONE_RULES = [
+  { keywords: ["ancestor", "griot", "ubuntu", "sankofa", "diaspora"], tone: "Ancestral" },
   { keywords: ["spirit", "oracle", "dream", "sacred", "ritual"], tone: "Mystical" },
   { keywords: ["dark", "fallen", "collapse", "ruin"], tone: "Dark" },
   { keywords: ["hope", "rebuild", "healing", "dawn"], tone: "Hopeful" },
