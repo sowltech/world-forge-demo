@@ -4,13 +4,15 @@
 
 World Forge turns a raw world idea into a structured World Bible.
 
-## How To Run Locally
+## Live Demo
+
+Open the static demo directly in a browser or serve it locally:
 
 ```bash
-python3 -m http.server 4173 --directory "01_Projects/World Forge/public_demo"
+python3 -m http.server 4173
 ```
 
-Open:
+Then visit:
 
 ```text
 http://localhost:4173
@@ -18,13 +20,26 @@ http://localhost:4173
 
 ## Public Deployment
 
-Deploy only this folder:
+Deploy the root of this public repository.
 
-```text
-public_exports/world-forge-demo/
-```
+## Public Landing Page
 
-Do not deploy the full private repo.
+The demo now includes a public-safe marketing layer:
+
+* Clear product positioning
+* Browser-only trust messaging
+* A feature summary
+* A first paid creative pack offer
+
+## Included Assets
+
+* `index.html`
+* `styles.css`
+* `app.js`
+* `examples/ash-empire.md`
+* `examples/ash-empire.json`
+* `demo-video-script.md`
+* `first-paid-creative-pack.md`
 
 ## Features
 
