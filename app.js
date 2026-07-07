@@ -11,6 +11,7 @@ const GENRE_RULES = [
 ];
 
 const TONE_RULES = [
+  { keywords: ["spirit", "oracle", "dream", "sacred", "ritual"], tone: "Mystical" },
   { keywords: ["dark", "fallen", "collapse", "ruin"], tone: "Dark" },
   { keywords: ["hope", "rebuild", "healing", "dawn"], tone: "Hopeful" },
   { keywords: ["empire", "myth", "god", "crown"], tone: "Epic" },
