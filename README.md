@@ -31,6 +31,27 @@ The demo now includes a public-safe marketing layer:
 * A feature summary
 * A first paid creative pack offer
 
+## Closed Commercial Loop
+
+This repo now contains:
+
+* Live browser demo
+* Public landing page
+* Starter Pack offer
+* Customer brief template
+* Sample delivery
+* FAQ
+* Terms
+* Checkout/contact placeholder
+
+## Live Demo
+
+https://sowltech.github.io/world-forge-demo/
+
+## Offer
+
+https://sowltech.github.io/world-forge-demo/offer/
+
 ## Included Assets
 
 * `index.html`
@@ -40,6 +61,13 @@ The demo now includes a public-safe marketing layer:
 * `examples/ash-empire.json`
 * `demo-video-script.md`
 * `first-paid-creative-pack.md`
+* `offer/index.html`
+* `offer/styles.css`
+* `offer/customer-brief-template.md`
+* `offer/delivery-sample.md`
+* `offer/faq.md`
+* `offer/terms.md`
+* `offer/checkout-options.md`
 
 ## Features
 

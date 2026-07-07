@@ -176,10 +176,15 @@ button:focus {
 }
 
 .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid transparent;
   border-radius: 999px;
   padding: 12px 16px;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
   transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 
