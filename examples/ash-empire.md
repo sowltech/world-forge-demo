@@ -1,4 +1,4 @@
-# Ash Empire World Bible
+# Sample Delivery — Ash Empire
 
 ## Title
 
@@ -26,7 +26,7 @@ Ash Empire is a dark science fiction setting where a fallen solar kingdom rebuil
 - Its earlier age shaped the laws, factions, and technology around that pressure.
 - The present era reflects the consequences of that founding conflict.
 
-## Main Factions
+## Factions
 
 - The Builders of Ash Empire
 - The Remnant Council of Ash Empire
@@ -40,7 +40,7 @@ Advanced systems, machine logic, and engineered infrastructure define capability
 
 Control of the system stack determines who can survive the next collapse.
 
-## Main Locations
+## Locations
 
 - The Heart of Ash Empire
 - The Outer Districts
@@ -70,7 +70,7 @@ Control of the system stack determines who can survive the next collapse.
 - Add scene or mission generators
 - Add export formats for PDF or structured datasets
 
-## Next Development Steps
+## Next Steps
 
 - Review the generated world bible for fit and tone.
 - Expand the concept into factions, rules, and key locations.

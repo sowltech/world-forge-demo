@@ -52,6 +52,25 @@ https://sowltech.github.io/world-forge-demo/
 
 https://sowltech.github.io/world-forge-demo/offer/
 
+## Developer Setup
+
+See:
+
+- `SETUP.md`
+- `CONTRIBUTING.md`
+- `SECURITY.md`
+
+## Verification
+
+```bash
+python3 scripts/verify_public_demo.py
+```
+
+## Releases
+
+- `v0.1.0` closed-loop public MVP
+- `v0.2.0` engineering hardening
+
 ## Included Assets
 
 * `index.html`
