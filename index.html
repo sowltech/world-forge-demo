@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>World Forge</title>
+  <meta name="description" content="World Forge turns raw ideas into structured world bibles.">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">World Forge</p>
+        <h1>Turn raw ideas into structured world bibles.</h1>
+        <p class="lede">
+          Build a clear, exportable world bible from a simple concept. Everything runs in your browser.
+        </p>
+        <div class="hero-actions">
+          <button id="loadSampleButton" class="button button-secondary" type="button">Load Sample</button>
+          <button id="clearButton" class="button button-ghost" type="button">Clear</button>
+        </div>
+      </div>
+      <div class="hero-note">
+        <p>Public-safe static demo</p>
+        <span>No data leaves your browser.</span>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card input-card" aria-labelledby="inputTitle">
+        <div class="card-header">
+          <p class="section-label">Input Panel</p>
+          <h2 id="inputTitle">Create a world concept</h2>
+        </div>
+        <label for="worldName">World name</label>
+        <input id="worldName" name="worldName" type="text" placeholder="Ash Empire" autocomplete="off">
+
+        <label for="worldConcept">World concept</label>
+        <textarea id="worldConcept" name="worldConcept" rows="7" placeholder="A fallen solar kingdom rebuilding after machine gods collapse the old economy."></textarea>
+
+        <div class="button-row">
+          <button id="generateButton" class="button button-primary" type="button">Generate World Bible</button>
+          <button id="downloadMarkdownButton" class="button button-secondary" type="button">Download Markdown</button>
+          <button id="downloadJsonButton" class="button button-secondary" type="button">Download JSON</button>
+        </div>
+
+        <p id="statusMessage" class="status" aria-live="polite"></p>
+      </section>
+
+      <section class="card output-card" aria-labelledby="outputTitle">
+        <div class="card-header">
+          <p class="section-label">Output Preview</p>
+          <h2 id="outputTitle">Generated world bible</h2>
+        </div>
+        <div id="previewEmpty" class="empty-state">
+          Generate a world bible to see the Markdown and JSON preview here.
+        </div>
+        <div id="previewContent" class="preview-content is-hidden">
+          <div class="preview-block">
+            <h3>Markdown Preview</h3>
+            <pre id="markdownPreview"></pre>
+          </div>
+          <div class="preview-block">
+            <h3>JSON Preview</h3>
+            <pre id="jsonPreview"></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="info-grid">
+      <article class="card">
+        <p class="section-label">How It Works</p>
+        <ol class="steps">
+          <li>Enter a name and concept.</li>
+          <li>Generate a structured world bible.</li>
+          <li>Preview Markdown and JSON in the browser.</li>
+          <li>Download the result for reuse elsewhere.</li>
+        </ol>
+      </article>
+      <article class="card">
+        <p class="section-label">Public-Safe Limits</p>
+        <p>
+          This demo runs entirely in your browser. It does not use external AI calls, accounts, payments, analytics, or server storage.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <span>World Forge public demo</span>
+      <span>No data leaves your browser.</span>
+    </footer>
+  </div>
+</body>
+</html>
