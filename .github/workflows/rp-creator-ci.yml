@@ -1,0 +1,17 @@
+name: RP Creator Tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/rp-forge.test.cjs
+      - run: node --check rp-forge.js
+      - run: node --check rp-ui.js
