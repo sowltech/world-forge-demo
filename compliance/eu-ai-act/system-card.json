@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "assessment": {
+    "repository": "sowltech/world-forge-demo",
+    "revision": "3715b2cfc819aec47e339a373e2cd6fad6c1ebcb",
+    "date": "2026-07-21",
+    "assessor": "SOWL Tech evidence audit",
+    "evidence": [
+      "README.md",
+      "app.js"
+    ]
+  },
+  "system": {
+    "name": "World Forge Public Demo v0.1",
+    "lifecycle": "development",
+    "intended_purpose": "Browser-only template transformation of world ideas into structured Markdown/JSON world bibles.",
+    "prohibited_uses": [
+      "Claiming the current template system uses an AI model",
+      "Adding an AI model without a new assessment and disclosure"
+    ],
+    "ai_components": []
+  },
+  "market_scope": {
+    "eu_market": "unknown",
+    "eu_output_use": "unknown",
+    "basis": "Public distribution exists, but the assessed revision is not an AI system."
+  },
+  "legal_roles": [
+    "not_assessed"
+  ],
+  "risk": {
+    "classification": "not_an_ai_system",
+    "rationale": "README expressly states browser-only template generation, no external AI calls and no AI model integration."
+  },
+  "transparency": {
+    "direct_human_interaction": "no",
+    "generative_output": "no",
+    "ai_disclosure": "not_applicable",
+    "machine_readable_marking": "not_applicable",
+    "deepfake_or_public_interest_content": "no"
+  },
+  "data": {
+    "personal_data": "no",
+    "special_category_data": "no",
+    "biometric_data": "no",
+    "voice_or_recording": "no",
+    "retention_defined": "not_applicable",
+    "privacy_owner": null
+  },
+  "human_oversight": {
+    "consequential_decisions": "no",
+    "override_available": "not_applicable",
+    "escalation_defined": "not_applicable"
+  },
+  "prohibited_practices": {
+    "review_complete": true,
+    "findings": []
+  },
+  "gpai": {
+    "is_model_provider": "no",
+    "systemic_risk_candidate": "not_applicable",
+    "assessment_complete": true
+  },
+  "high_risk": {
+    "annex_i_candidate": "no",
+    "annex_iii_candidate": "no",
+    "assessment_complete": true
+  },
+  "operations": {
+    "ai_literacy_owner": null,
+    "incident_owner": null,
+    "monitoring_owner": null,
+    "change_control": "implemented"
+  },
+  "status": {
+    "verdict": "OUT_OF_SCOPE_EVIDENCED",
+    "blockers": [],
+    "reviewer": null,
+    "next_review": "2027-07-21"
+  }
+}
